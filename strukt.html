@@ -1,0 +1,40 @@
+ // VOR DEM SPIEL
+
+Textfeld + Eingabefeld (Abfrage: Anzahl der Spieler (für die Anzahle der Aktionskarten/Hofpläne))
+
+Tabelle 1x(Anzahl der Spieler) (Zuweisung einer ID)
+
+
+
+ // SPIELAUFBAU
+
+Anzeige (Rundenanzahl)
+
+Spielfeld (Besteht aus Tabellen dessen Felder je nach Runde/Aktion verschiedene ID's zugordnet werden)
+	-> Kartenstarpel (Kartenstarpel die geordnet/gemischt werden und dessen Reihenfolge gespiechert wird)
+
+Höfe (Besteht aus Tabellen dessen Felder je nach Runde/Aktion verschiedene ID's zugordnet werden)
+	->Datenbank (Für jeden Spieler zum speichern der Werte)
+
+
+ // SPIEL
+ 
+ Anweisung in ner Schleife (Die Runden)
+	->1. Phase Karte aufdecken und die Aktion durführen
+	->2. Phase Schaltfläche in den Tabellen (Aktionen die die spieler machen können(Die Spieler kommen nacheinander
+		  an die Reihe über die ID))
+	->3. Phase Runden Anzahl wird um 1 erhöht
+ If Anweisung (Am Ende der 4, 7, 9, 11, 13 und 14 Runde ist Erntezeit)
+	-> Phase 1: Die Ackerphase. Von jedem bepflanzten Acker wird 1 Getreide/Gemüse genommen.
+	-> Püfen die Spieler ihre Personen versorgen können
+	-> Abziehen der Nährwerte oder Minuspunkte verteilen
+
+	
+ // Ende
+ 
+ Auswertung anhand der Wertetabelle
+ 
+ Tabelle (Anzeige der Spieler + deren Punkte in sortierter Reihenfolge)
+
+
+

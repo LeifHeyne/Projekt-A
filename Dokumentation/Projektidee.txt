@@ -1,4 +1,4 @@
-=== Projektidee LeifHeyne, 2016-04-05 ===
+﻿=== Projektidee LeifHeyne, 2016-04-05 ===
 
 Ich habe bisher keine Projektidee.
 
@@ -81,3 +81,19 @@ Es ist dabei sehr wahrscheinlich, dass Sie (vielleicht auch erst später währen
 
 Viele Grüße,
 Markus Alpers
+
+=== Projektidee LeifHeyne, 2016-04-09 ===
+
+"Meine" Projektidee ist die 
+Umwandlung der Famielenversion des Brettspiels "Agricola" in ein Computerspiel.
+Das Spiel besteht aus 14 Runden. Die Anzahl an aktionen, die du
+ausführen kannst ist an die Anzahl an Personen gebunden, die auf dem Hof leben.
+Die Anzahl an Personen wächst bit der anzahl/größe der Häuser.
+Mit Aktionskarten kann man Häuser bauen , Getreide/Gemüse ernten,
+Schafe/ Wildschweine/ Rinder bekommen und generell den Hof ausbauen.
+Die Aktionen sind begrenzt duch die Anzahl an Personen die auf dem Hof leben.
+Am Ende der 4., 7., 9., 11., 13. und 14. Runde kommt es zu einer Erntezeit.
+In dieser Zeit musst du deine Personen versorgen. Bist du nicht in der Lage dazu sammelst
+du Minuspunkte. Zudem gibt es die "großen Anschaffungen" welche die gewisse Boni 
+verschaffen. Am Ande wird mithilfe einer Punkte-Tabelle punkte verteilt.
+Der Spieler mit den meisten Punkten ist der Sieger.
