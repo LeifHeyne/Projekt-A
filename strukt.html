@@ -1,6 +1,6 @@
  // VOR DEM SPIEL
 
-Textfeld + Eingabefeld (Abfrage: Anzahl der Spieler (für die Anzahle der Aktionskarten/Hofpläne))
+Textfeld + Eingabefeld (Abfrage: Anzahl der Spieler (fuer die Anzahle der Aktionskarten/Hofplaene))
 
 Tabelle 1x(Anzahl der Spieler) (Zuweisung einer ID)
 
@@ -9,34 +9,50 @@ Tabelle 1x(Anzahl der Spieler) (Zuweisung einer ID)
  // SPIELAUFBAU
 
 Anzeige (Rundenanzahl)
+Anzeige (welcher Spieler ist am Zug) //korppikuolema
 
 Spielfeld (Besteht aus Tabellen dessen Felder je nach Runde/Aktion verschiedene ID's zugordnet werden)
-	-> Kartenstarpel (Kartenstarpel die geordnet/gemischt werden und dessen Reihenfolge gespiechert wird)
+	-> Kartenstapel (Kartenstapel die geordnet/gemischt werden und dessen Reihenfolge gespeichert wird)
 
-Höfe (Besteht aus Tabellen dessen Felder je nach Runde/Aktion verschiedene ID's zugordnet werden)
-        ->15 Tabellenzellen f�r die heweiligen H�fe
-	->Datenbank (Für jeden Spieler zum speichern der Werte)
+Hoefe (Besteht aus Tabellen dessen Felder je nach Runde/Aktion verschiedene ID's zugordnet werden)
+        ->15 Tabellenzellen für die jeweiligen Höfe
+	->Datenbank (Fuer jeden Spieler zum Speichern der Werte)
 
 
  // SPIEL
  
  Anweisung in ner Schleife (Die Runden)
-	->1. Phase Karte aufdecken und die Aktion durführen
+	->1. Phase Karte aufdecken und die Aktion durfuehren
+		- Schaltfläche (Zum Karten aufdecken) //korppikuolema
+		- Schaltfläche (Um die Aktion zu bestätigen) //korppikuolema
                 - Anzeige der Karte in einem Textfeld
-	->2. Phase Schaltfläche in den Tabellen (Aktionen die die spieler machen können(Die Spieler kommen nacheinander
-		  an die Reihe über die ID))           
-	->3. Phase Runden Anzahl wird um 1 erhöht
+	->2. Phase 
+		- Schaltflaeche in den Tabellen (Aktionen die die Spieler machen koennen(Die Spieler kommen nacheinander
+		  an die Reihe ueber die ID))  
+		- Schaltfläche (Um die Aktion zu bestätigen) //korppikuolema
+	->3. Phase Runden Anzahl wird um 1 erhoeht
  If Anweisung (Am Ende der 4, 7, 9, 11, 13 und 14 Runde ist Erntezeit)
-	-> Phase 1: Die Ackerphase. Von jedem bepflanzten Acker wird 1 Getreide/Gemüse genommen.
-	-> Püfen die Spieler ihre Personen versorgen können
-	-> Abziehen der Nährwerte oder Minuspunkte verteilen
+	-> Phase 1: Die Ackerphase. Von jedem bepflanzten Acker wird 1 Getreide/Gemuese genommen. 
+	 	- Text ("Dir wurde 1 Getreide genommen") //korppikuolema
+	-> Pruefen ob die Spieler ihre Personen versorgen koennen
+	-> Abziehen der Naehrwerte oder Minuspunkte verteilen
+		- Text ("Du konntest deine Personen nicht versorgen") //korppikuolema
+		- Text (Anzahl der Naehrwerte oder Minuspunkte) //korppikuolema
 
 	
  // Ende
  
  Auswertung anhand der Wertetabelle
  
- Tabelle (Anzeige der Spieler + deren Punkte in sortierter Reihenfolge)
+ - Tabelle (Anzeige der Spieler + deren Punkte in sortierter Reihenfolge)
+ - Text ("Herzlichen Glückwunsch "ID des Gewinners" du hast gewonnen") //korppikuolema
+ - Schaltfläche ("Neues Spiel") //korppikuolema
 
 
-
+//korppikuolema
+Also ich finde an sich hast du das schon gut aufgebaut gerade über die Tabelle, allerdings finde ich, dass du grade im zweiten Teil eher 
+beschrieben hast wie das dann ablaufen soll und die strukturellen Elemente nur angeschnitten.
+Außerdem würde ich hier und da mehr Schaltflächen einbauen damit die Nutzer mehr bestätigen können und somit auch mehr Interaktion mit der Anwendung haben.
+Das Einzige was mir noch gefehlt hat, ist eine Anzeige damit die Nutzer wissen, wer am Zug ist. Evtll. könnte man das auch aufblenden lassen können von wegen "User "ID" ist am Zug!".
+Was jetzt eher unwesentlich ist, was mich beim Lesen sowohl von der Projektidee als auch von der Struktur ein bisschen gestört hat ist, dass du wirklich oft Groß- und Kleinschreibung weglässt oder dich vertippst, vllt. einfach nochmal danach durchlesen ;).
+Aber ist wie gesagt eigentlich ja nicht wild.
