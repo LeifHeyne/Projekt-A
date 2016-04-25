@@ -84,16 +84,25 @@ Markus Alpers
 
 === Projektidee LeifHeyne, 2016-04-09 ===
 
-"Meine" Projektidee ist die 
-Umwandlung der Famielenversion des Brettspiels "Agricola" in ein Computerspiel.
-Das Spiel besteht aus 14 Runden. Die Anzahl an aktionen, die du
+Meine Projektidee ist die 
+Umwandlung der Familienversion des Brettspiels "Agricola" in ein Computerspiel.
+Das Spiel besteht aus 14 Runden. Die Anzahl an Aktionen, die du
 ausführen kannst ist an die Anzahl an Personen gebunden, die auf dem Hof leben.
-Die Anzahl an Personen wächst bit der anzahl/größe der Häuser.
-Mit Aktionskarten kann man Häuser bauen , Getreide/Gemüse ernten,
+Die Anzahl an Personen wächst mit der Anzahl/Größe der Häuser.
+Mit Aktionskarten kann man Häuser bauen , Getreide und Gemüse ernten,
 Schafe/ Wildschweine/ Rinder bekommen und generell den Hof ausbauen.
 Die Aktionen sind begrenzt duch die Anzahl an Personen die auf dem Hof leben.
 Am Ende der 4., 7., 9., 11., 13. und 14. Runde kommt es zu einer Erntezeit.
 In dieser Zeit musst du deine Personen versorgen. Bist du nicht in der Lage dazu sammelst
 du Minuspunkte. Zudem gibt es die "großen Anschaffungen" welche die gewisse Boni 
-verschaffen. Am Ande wird mithilfe einer Punkte-Tabelle punkte verteilt.
+verschaffen. Am Ande wird mithilfe einer Punkte-Tabelle Punkte verteilt.
 Der Spieler mit den meisten Punkten ist der Sieger.
+
+
+==Kommentar Jaacii 25.4.16==
+Das Spiel klingt ganz interessant. Quasi ein Farming-Simulator-Brettspiel.
+Bin gespannt, wie es wird.
+Bei der Beschreibung würde mich als Person, die sich den Link zum Spiel noch nicht angeschaut hat, 
+interessieren wie eine Runde aufgebaut ist(oder halt welche genauen interaktionen man pro Runde machen kann),
+z.b. sowas wie, dass man Würfelt und dann die So viele neue Tiere bekommt etc.. Falls es keine Würfel gibt, könnte man das
+Spiel evtl mit welchen ergänzen. Daraus könnten sich interessante experimentelle Features ergeben.
